@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Room"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Room" />
+        <item
+            android:id="@+id/nav_Floor"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Floor" />
+        <item
+            android:id="@+id/nav_Service"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Service" />
+        <item
+            android:id="@+id/nav_Customer"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Customer" />
+    </group>
+
+    <item android:title="Transaction">
+        <menu>
+            <item
+                android:id="@+id/nav_Booking"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Booking" />
+            <item
+                android:id="@+id/nav_Promotion"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Promotion" />
+        </menu>
+    </item>
+    <item android:title="Security">
+        <menu>
+            <item
+                android:id="@+id/nav_SignUp"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Signup" />
+            <item
+                android:id="@+id/nav_SignIn"
+                android:icon="@drawable/ic_menu_send"
+                android:title="SignIn" />
+            <item
+                android:id="@+id/nav_Exit"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Exit" />
+        </menu>
+    </item>
+
+</menu>
